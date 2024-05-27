@@ -1,0 +1,6 @@
+.heroImage {
+    width: 100%;
+    object-fit: cover;
+    height: 53vh;
+    object-position: left;
+}
