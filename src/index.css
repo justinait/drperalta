@@ -3,4 +3,5 @@ body {
   min-width: 320px;
   min-height: 100vh;
   display: inline-block;
+  font-family: Helvetica, sans-serif;
 }

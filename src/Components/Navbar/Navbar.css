@@ -1,8 +1,4 @@
-.navbarContainer{
-    /* height: 74px; */
-}
 .medicalCity {
-    font-family: Helvetica;
     font-size: 24px;
     font-weight: 700;
     line-height: 27.6px;
@@ -10,5 +6,5 @@
     text-align: left;
     text-transform: uppercase;
     color: #0056CC;
-    margin: 7%;
+    margin: 7% 10%;
 }
