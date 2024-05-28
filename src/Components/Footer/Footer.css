@@ -1,7 +1,7 @@
 .footer {
     background-color: #242324;
     color: white;
-    padding: 8%;
+    padding: 8% 10% ;
 }
 .medicalCityFooter {
     font-size: 24px;
@@ -24,4 +24,27 @@
     width: 60%;
     font-size: 12px;
     margin-bottom: 0;
+}
+@media(min-width:700px){
+    .footer{
+        padding: 6% 10%;
+    }
+    .medicalCityFooter{
+        
+        margin-bottom: 1em;
+    }
+    .copyright {
+        width: 40%;
+        font-size: 12px;
+    }
+    
+}
+@media(min-width:1000px){
+    .indice{
+        margin: 1.5em 0;
+    }
+    .copyright {
+        width: 30%;
+        font-size: 14px;
+    }
 }

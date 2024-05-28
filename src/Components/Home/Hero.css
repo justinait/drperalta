@@ -51,7 +51,9 @@
 }
 @media(min-width:700px){
     .heroBox{
-        width: 73%;
+        width: 70%;
+        top: 163px;
+        padding: 5%;
     }
     .heroTitle, .heroText{
         width: 60%;
@@ -77,7 +79,7 @@
 }
 @media(min-width:1000px){
     .heroBox{
-        top: 135px;
+        top: 130px;
     }
     .heroTitle{
         font-size: 34px;
@@ -87,21 +89,28 @@
         margin: 2em 0;
     }
     .buttonsHero{
-        
         width: 43%;
+    }
+    .heroImage {
+        height: 450px;
     }
 }
 
-@media(min-width:1400px){
+@media(min-width:1200px){
     .heroBox{
-        top: 170px;
+        top: 160px;
     }
     .heroTitle{
         font-size: 40px;
-        font-weight: 700;
-        line-height: 48px;
-        letter-spacing: 0.02em;
-        text-align: left;
-
+    }    
+    .heroText {
+        font-size: 18px;
+        width: 62%;
+    }
+    .heroImage {
+        height: 550px;
+    }
+    .buttonsHero {
+        width: 37%;
     }
 }

@@ -55,3 +55,13 @@
         width: 31%;
     }
 }
+
+@media(min-width:1200px){
+    .whatName {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .whatWeDotitle {
+        font-size: 32px;
+    }
+}

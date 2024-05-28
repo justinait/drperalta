@@ -12,6 +12,9 @@
 .medicalCity:hover {
     color:#3576CF
 }
+.buttonsNavbar {
+    display: none;
+}
 @media(min-width:700px){
     .medicalCity{
         margin: 4% 10%;
@@ -48,8 +51,12 @@
 
 @media(min-width:1200px){
     .medicalCity{
-        margin: 2.5% 10%;
+        margin: 2% 10%;
         font-size: 28px;
         font-weight: 700;
+    }
+    
+    .buttonsNavbar {
+        width: 25%;
     }
 }
