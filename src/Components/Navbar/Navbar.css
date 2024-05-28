@@ -17,3 +17,17 @@
         margin: 4% 10%;
     }
 }
+@media(min-width:1000px){
+    .medicalCity{
+        margin: 2% 10%;
+        font-size: 26px;
+        font-weight: 700;
+    }
+}
+@media(min-width:1200px){
+    .medicalCity{
+        margin: 2.5% 10%;
+        font-size: 28px;
+        font-weight: 700;
+    }
+}

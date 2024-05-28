@@ -53,6 +53,7 @@ ul {
     border-radius: 5px;
     width: 85%;
     margin: 0 0 8% 0px;
+    font-size: 14px;
 }
 .inputContact::placeholder {
     font-family: Helvetica, sans-serif !important;
@@ -95,9 +96,10 @@ ul {
     }
     .inputContact{
         
+        font-size: 16px;
         padding: 11px 16px;
         border-radius: 5px;
-        width: 85%;
+        width: 93%;
         margin: 0 0 6% 0px;
     }
     
@@ -107,5 +109,44 @@ ul {
     .formButton {
         width: 40% !important;
         margin-bottom: 25px !important;
+    }
+}
+
+@media(min-width:1000px){
+    .contactHeroTitle{
+        width: 100%;
+        font-size: 21px;
+    }
+    .contactPageContainer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .contactFormContainer {
+        background-color: #FFFFFF33;
+        width: 35%;
+        padding: 0 5%;
+    }
+    .contactPageOne {
+        width: 41%;
+    }
+    .inputContact {   
+        width: 90%;
+        margin: 0 0 10% 0px;
+    }
+    .divIcons p {
+        margin-left: 17px;
+        font-size: 17px;
+    }
+    .subtitleContactHero, ul {
+        font-size: 17px;
+    }
+    ul {
+        margin-bottom: 0;
+    }
+    .formButton {
+        width: 53% !important;
+    }
+    .button {
+        font-size: 14px;
     }
 }
