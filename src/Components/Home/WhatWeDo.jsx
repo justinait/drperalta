@@ -11,7 +11,7 @@ function WhatWeDo() {
       {image: '/service6.jpg', name: 'Nursing'},
     ]
   return (
-    <div className='whatContainer'>
+    <div className='whatContainer' id='what-we-do'>
       <p className='whatWeDotitle'>What we do</p>
       {
         services.map((e, i)=>{

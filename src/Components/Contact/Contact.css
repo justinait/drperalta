@@ -51,7 +51,7 @@ ul {
     padding: 5px 16px;
     border-radius: 5px;
     width: 85%;
-    margin: 0 0 10% 0px;
+    margin: 0 0 8% 0px;
 }
 .inputContact::placeholder {
     font-family: Helvetica, sans-serif !important;
@@ -65,6 +65,8 @@ ul {
 .formButton {
     margin-bottom: 15px !important;
     margin-top: 0px;
+    border: none;
+    width: 60% !important;
 }
 .button:hover {
     background-color: #3576CF;

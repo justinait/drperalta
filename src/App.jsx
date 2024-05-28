@@ -1,19 +1,41 @@
-import './App.css'
-import Contact from './Components/Contact/Contact'
-import Home from './Components/Home/Home'
-import Links from './Components/Links/Links'
-import Navbar from './Components/Navbar/Navbar'
+import React, { useState } from 'react';
+import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import Hero from './Components/Home/Hero';
+import Contact from './Components/Contact/Contact';
+import Links from './Components/Links/Links';
+import Footer from './Components/Footer/Footer';
+import WhatWeDo from './Components/Home/WhatWeDo';
 
 function App() {
+  const [activeSection, setActiveSection] = useState('');
+
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      const offset = section.offsetTop - (8 * window.innerHeight) / 100; // Resta 8vh
+      window.scrollTo({
+        top: offset,
+        behavior: 'smooth',
+      });
+      setActiveSection(id);
+    }
+  };
 
   return (
     <div>
-      <Navbar/>
-      <Home/>
-      <Contact />
-      <Links/>
+      <Navbar />
+      <Hero scrollToSection={scrollToSection} />
+      <section id="what-we-do">
+        <WhatWeDo />
+      </section>
+      <section id="contact">
+        <Contact />
+      </section>
+      <Links />
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,27 @@
+.footer {
+    background-color: #242324;
+    color: white;
+    padding: 8%;
+}
+.medicalCityFooter {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: left;
+    text-transform: uppercase; 
+    margin: 0;
+}
+
+.indice {
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-transform: uppercase;
+}
+.copyright {
+    
+    width: 60%;
+    font-size: 12px;
+    margin-bottom: 0;
+}

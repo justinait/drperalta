@@ -6,7 +6,7 @@ import ContactForm from './ContactForm'
 
 function Contact() {
   return (
-    <div className='contactPageContainer'>
+    <div className='contactPageContainer' id='contact'>
       <p className='contactHeroTitle'>Home medical care just a click away. <strong>Schedule your visit today.</strong> </p>
 
       <div className='divIcons'>
