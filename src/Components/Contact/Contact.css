@@ -1,0 +1,37 @@
+.contactPageContainer{
+    background-color: #E7E5E5;
+    width: 80%;
+    padding: 5% 10% ;
+}
+.contactHeroTitle{
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 27.6px;
+    text-align: left;
+    /* width: 80%; */
+}
+.divIcons {
+    display: flex;
+    align-items: center;
+}
+.divIcons p {
+    margin-left: 15px;
+    font-size: 14px;
+}
+.subtitleContactHero {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 45px 0 30px;
+}
+ul {
+    font-family: Helvetica;
+    font-size: 15.5px;
+    font-weight: 400;
+    line-height: 20.7px;
+    text-align: left;
+    padding: 0 8%;
+}

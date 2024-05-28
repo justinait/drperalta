@@ -1,4 +1,5 @@
 import './App.css'
+import Contact from './Components/Contact/Contact'
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 
@@ -8,6 +9,8 @@ function App() {
     <div>
       <Navbar/>
       <Home/>
+      <Contact />
+
     </div>
   )
 }
