@@ -19,11 +19,33 @@
 }
 @media(min-width:1000px){
     .medicalCity{
-        margin: 2% 10%;
+        margin: 2.5% 10%;
         font-size: 26px;
         font-weight: 700;
     }
+    .navbarContainer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .buttonsNavbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 29%;
+        margin-right: 10%;
+    }
+    .buttonsNavbar .button {
+        margin: 0;
+    }
+    .whatWeDoNavbar {
+        color: black !important;
+        background: white !important;
+    }
 }
+
+
+
 @media(min-width:1200px){
     .medicalCity{
         margin: 2.5% 10%;

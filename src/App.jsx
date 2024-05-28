@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div>
-      <Navbar />
+      <Navbar scrollToSection={scrollToSection} />
       <Hero scrollToSection={scrollToSection} />
       <section id="what-we-do">
         <WhatWeDo />
