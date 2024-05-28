@@ -49,3 +49,29 @@
     background: white;
     color: #0056CC;
 }
+@media(min-width:700px){
+    .heroBox{
+        width: 73%;
+    }
+    .heroTitle, .heroText{
+        width: 60%;
+        line-height: normal;
+    }
+    .heroText{
+        font-size: 15px;
+        width: 64%;
+    }
+    .buttonsHero {
+        display: flex;
+        align-items: center;
+        width: 60%;
+        justify-content: space-between;
+    }
+    .buttonsHero .button {
+        margin: 0;
+        width: 35%;
+    }
+    .button{
+        font-size: 15px;
+    }
+}

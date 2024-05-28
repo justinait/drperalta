@@ -12,3 +12,8 @@
 .medicalCity:hover {
     color:#3576CF
 }
+@media(min-width:700px){
+    .medicalCity{
+        margin: 4% 10%;
+    }
+}

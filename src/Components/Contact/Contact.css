@@ -6,6 +6,7 @@
 .contactHeroTitle{
     font-family: Helvetica;
     font-size: 19px;
+    font-size: clamp(19px, 5vw, 22px);
     font-weight: 400;
     line-height: 27.6px;
     text-align: left;
@@ -74,4 +75,37 @@ ul {
 .learnMore:hover{
     color: #3576CF;
     background-color: #fff;
+}
+
+@media(min-width:700px){
+    .contactHeroTitle{
+        font-size: clamp(23px, 6vw, 30px);
+        line-height: normal;
+    }
+    .divIcons p {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .subtitleContactHero{
+        font-size: 22px;
+    }
+    ul {
+        font-size: 21px;
+        line-height: normal;
+    }
+    .inputContact{
+        
+        padding: 11px 16px;
+        border-radius: 5px;
+        width: 85%;
+        margin: 0 0 6% 0px;
+    }
+    
+    .inputContactMessage {
+        padding: 11px 16px 64px 16px;
+    }
+    .formButton {
+        width: 40% !important;
+        margin-bottom: 25px !important;
+    }
 }

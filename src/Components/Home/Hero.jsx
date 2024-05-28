@@ -11,8 +11,10 @@ function Hero({scrollToSection }) {
         <p className='heroText'>Home doctor visits provide a convenient way to access healthcare services 
           without having to travel to a doctor's office or clinic.
         </p>
-        <p className='button learnMore' onClick={() => scrollToSection('what-we-do')}>Learn More</p>
-        <p className='button' onClick={() => scrollToSection('contact')}>Contact us</p>
+        <div className='buttonsHero'>
+          <p className='button learnMore' onClick={() => scrollToSection('what-we-do')}>Learn More</p>
+          <p className='button' onClick={() => scrollToSection('contact')}>Contact us</p>
+        </div>
       </div>
       
     </div>
