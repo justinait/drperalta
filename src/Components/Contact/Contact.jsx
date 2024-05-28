@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import phone from '/iconPhone.png'
 import location from '/iconLocation.png'
+import ContactForm from './ContactForm'
 
 function Contact() {
   return (
@@ -26,8 +27,9 @@ function Contact() {
         <li>Bucerias</li>
         <li>La Cruz</li>
         <li>Sayulita</li>
-        
       </ul>
+
+      <ContactForm/>
     </div>
   )
 }

@@ -25,7 +25,7 @@
     font-weight: 700;
     text-align: left;
     text-transform: uppercase;
-    margin: 45px 0 30px;
+    margin: 45px 0 25px;
 }
 ul {
     font-family: Helvetica;
@@ -34,4 +34,34 @@ ul {
     line-height: 20.7px;
     text-align: left;
     padding: 0 8%;
+    margin-bottom: 2em;
+}
+
+.contactFormContainer{
+    background-color:#FFFFFF33;
+    width: 80%;
+    border: 2.3px solid white;
+    padding: 0 10%;
+    border-radius: 20px;
+}
+.inputContact {
+    background: transparent;
+    border: 1px solid #80858D;
+    padding: 5px 16px;
+    border-radius: 5px;
+    width: 85%;
+    margin: 0 0 10% 0px;
+}
+.inputContact::placeholder {
+    font-family: Helvetica, sans-serif !important;
+    color:  #80858D;
+    opacity: 1;
+}
+.inputContactMessage {
+    
+    padding: 5px 16px 64px 16px;
+}
+.formButton {
+    margin-bottom: 15px !important;
+    margin-top: 0px;
 }
