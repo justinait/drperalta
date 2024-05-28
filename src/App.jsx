@@ -33,7 +33,7 @@ function App() {
         <Contact />
       </section>
       <Links />
-      <Footer />
+      <Footer  scrollToSection={scrollToSection} />
     </div>
   );
 }
