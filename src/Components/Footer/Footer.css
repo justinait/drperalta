@@ -76,3 +76,16 @@
         font-size: 28px;
     }
 }
+@media(min-width:1800px){
+    
+    .copyright {
+        font-size: 20px;
+        margin-top: -10px;
+    }
+    .indice {
+        font-size: 18px;
+    }
+    .medicalCityFooter {
+        font-size: 30px;
+    }
+}
