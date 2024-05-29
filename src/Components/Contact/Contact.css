@@ -43,8 +43,7 @@ ul {
 }
 
 .contactFormContainer{
-    /* cambiar color */
-    background-color:#FFFFFF33;
+    background-color:#FFF;
     width: 80%;
     border: 2.3px solid white;
     padding: 0 10%;
@@ -98,8 +97,7 @@ ul {
     left: 16px;
     transform: translateY(-50%);
     color: #80858D;
-    /* mismo color que arriba */
-    background: #E7E5E5;
+    background: #fff;
     transition: 0.2s ease all;
     pointer-events: none;
     font-family: Helvetica, sans-serif !important;
@@ -180,7 +178,6 @@ ul {
         justify-content: space-between;
     }
     .contactFormContainer {
-        background-color: #FFFFFF33;
         width: 35%;
         padding: 0 5%;
     }
