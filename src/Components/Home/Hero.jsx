@@ -4,8 +4,8 @@ import './Hero.css'
 
 function Hero({scrollToSection }) {
   return (
-    <div>
-      <img src={hero} alt="" className='heroImage' />
+    <div className='heroContainer'>
+      {/* <img src={hero} alt="" className='heroImage' /> */}
       <div className='heroBox'>
         <p className='heroTitle'>Need a doctor at home? Contact to Dr. Peralta </p>
         <p className='heroText'>Home doctor visits provide a convenient way to access healthcare services 

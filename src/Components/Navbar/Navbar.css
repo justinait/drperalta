@@ -60,3 +60,11 @@
         width: 25%;
     }
 }
+@media(min-width: 1800px){
+    .buttonsNavbar {
+        width: 22%;
+    }
+    .medicalCity{
+        font-size: 30px;
+    }
+}

@@ -65,10 +65,23 @@
     .whatWeDotitle {
         font-size: 32px;
     }
+    .whatImage {
+        border-radius: 10px;
+    }
 }
 @media(min-width:1400px){
     
     .whatWeDotitle {
         font-size: 34px;
     }
+}
+@media(min-width:1800px){
+    
+    .whatWeDotitle {
+        font-size: 38px;
+    }
+    .whatName {
+        font-size: 21px;
+    }
+    
 }

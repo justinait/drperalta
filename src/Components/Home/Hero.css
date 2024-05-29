@@ -1,20 +1,22 @@
-.heroImage {
+.heroContainer {
+    background-image: url('/hero.jpg');
     width: 100%;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-position: center;
     object-fit: cover;
-    height: 53vh;
+    background-size: cover;
     height: 410px;
-    object-position: left;
+    display: flex;
 }
 .heroBox {
-    position: absolute;
-    top: 115px;
     width: 70%;
+    margin: auto;
     left: 50%;
-    transform: translateX(-50%);
     padding: 25px;
     border-radius: 10px;
     border: 1px solid white;
-    backdrop-filter: blur(10px); /* Desenfoque de la imagen detrás */
+    backdrop-filter: blur(10px);
     background: #FFFFFF33;
 }
 .heroTitle {
@@ -52,7 +54,6 @@
 @media(min-width:700px){
     .heroBox{
         width: 70%;
-        top: 163px;
         padding: 5%;
     }
     .heroTitle, .heroText{
@@ -78,9 +79,7 @@
     }
 }
 @media(min-width:1000px){
-    .heroBox{
-        top: 130px;
-    }
+    
     .heroTitle{
         font-size: 34px;
     }
@@ -91,15 +90,13 @@
     .buttonsHero{
         width: 43%;
     }
-    .heroImage {
+    .heroContainer {
         height: 450px;
     }
 }
 
 @media(min-width:1200px){
-    .heroBox{
-        top: 160px;
-    }
+    
     .heroTitle{
         font-size: 40px;
     }    
@@ -107,7 +104,7 @@
         font-size: 18px;
         width: 62%;
     }
-    .heroImage {
+    .heroContainer {
         height: 550px;
     }
     .buttonsHero {
@@ -115,9 +112,7 @@
     }
 }
 @media(min-width:1400px){
-    .heroBox {    
-        top: 145px;
-    }
+    
     .heroText {
         font-size: 20px;
         line-height: 22px;
@@ -127,7 +122,22 @@
     }
     
     .buttonsHero .button {
-        
         width: 37%;
+    }
+}
+@media(min-width:1800px){
+    
+    .heroContainer {
+        height: 700px;
+    }
+    .heroTitle {
+        font-size: 53px;
+    }
+    .heroText {
+        font-size: 26px;
+        line-height: 29px;
+    }
+    .heroBox {
+        border-radius: 16px;
     }
 }

@@ -199,3 +199,30 @@ ul {
         width: 41% !important;
     }
 }
+@media(min-width:1800px){
+    
+    .button {
+        font-size: 19px;
+    }
+    .contactHeroTitle {
+        font-size: 33px;
+    }
+    .formButton {
+        width: 41% !important;
+    }
+    .contactPageOne {
+        width: 39%;
+    }
+    .contactFormContainer {
+        width: 34%;
+    }
+    .contactHeroTitle {
+        font-size: 37px;
+    }
+    .divIcons p, .subtitleContactHero, ul {
+        font-size: 20px;
+    }
+    .divIcons img {
+        width: 35px;
+    }
+}
