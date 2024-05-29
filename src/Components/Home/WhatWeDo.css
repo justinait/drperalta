@@ -66,3 +66,9 @@
         font-size: 32px;
     }
 }
+@media(min-width:1400px){
+    
+    .whatWeDotitle {
+        font-size: 34px;
+    }
+}

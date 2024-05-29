@@ -19,6 +19,9 @@
     line-height: 21px;
     text-transform: uppercase;
 }
+.indice:hover {
+    cursor:pointer;
+}
 .copyright {
     
     width: 60%;

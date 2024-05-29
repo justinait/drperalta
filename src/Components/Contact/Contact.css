@@ -185,3 +185,17 @@ ul {
         width: 45% !important;
     }
 }
+@media(min-width:1400px){
+    
+    .button {
+        font-size: 17px;
+        padding: 18px;
+    }
+    .contactHeroTitle {
+        font-size: 33px;
+    }
+    .formButton {
+        
+        width: 41% !important;
+    }
+}
