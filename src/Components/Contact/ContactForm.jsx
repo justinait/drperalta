@@ -2,13 +2,12 @@ import React, { useState } from 'react'
 
 function ContactForm() {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const whatsappMessage = `Hola, mi nombre es ${name}, mi correo es ${email}, y mi mensaje es: ${message}`;
+    const whatsappMessage = `Hola, mi nombre es ${name} y mi consulta es: ${message}`;
     const whatsappUrl = `https://api.whatsapp.com/send?phone=+5213221303534&text=${encodeURIComponent(whatsappMessage)}`;
 
     window.open(whatsappUrl, '_blank');
