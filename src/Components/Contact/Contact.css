@@ -173,8 +173,13 @@ ul {
     }
     .inputContact {
         
+        font-size: 18px;
         padding: 6px 16px;
         margin: 0 0 6% 0px;
+    }
+    .inputContactMessage {
+        
+        padding: 6px 16px 64px 16px;
     }
     .formButton {
         width: 45% !important;
