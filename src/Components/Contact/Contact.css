@@ -17,6 +17,9 @@
     align-items: center;
     margin-bottom: 6px;
 }
+.divIcons img {
+    width: 20px;
+}
 .divIcons p {
     margin-left: 15px;
     font-size: 14px;
