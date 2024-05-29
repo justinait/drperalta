@@ -19,6 +19,7 @@
 }
 .divIcons img {
     width: 20px;
+    height: auto;
 }
 .divIcons p {
     margin-left: 15px;
