@@ -51,7 +51,7 @@
     }
     .whatsappLink {   
         padding: 20%;
-        border-radius: 30%;
+        border-radius: 10px;
     }
     .css-i4bv87-MuiSvgIcon-root{
         font-size: 2.5em !important;
@@ -67,7 +67,6 @@
     }
     .whatsappLink {   
         padding: 20%;
-        border-radius: 30%;
     }
     .css-i4bv87-MuiSvgIcon-root{
         font-size: 2.8em !important;

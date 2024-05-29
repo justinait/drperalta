@@ -151,8 +151,32 @@ ul {
     }
 }
 @media(min-width:1200px){
-    
+    .contactHeroTitle{
+        font-size: 29.5px;
+    }
     .button {
         font-size: 16px;
+    }
+    .contactPageOne {
+        width: 44%;
+    }
+    .contactFormContainer {
+        width: 37%;
+        padding: 0 3%;
+    }
+    .divIcons p {
+        margin-left: 18px;
+        font-size: 18px;
+    }
+    .subtitleContactHero, ul {
+        font-size: 18px;
+    }
+    .inputContact {
+        
+        padding: 6px 16px;
+        margin: 0 0 6% 0px;
+    }
+    .formButton {
+        width: 45% !important;
     }
 }
