@@ -18,23 +18,27 @@ function ContactForm() {
 
       <p className='whatWeDotitle'>Contact us</p>
       <form onSubmit={handleSubmit}>
-        <div>
+        <div className='inputContainer'>
+          <label htmlFor="name" className={`floatingLabel ${name && 'floatingLabelActive'}`}>Name*</label>
           <input 
             type="text" 
             id="name" 
             value={name} 
             onChange={(e) => setName(e.target.value)} 
             required 
-            placeholder='Name*' className='inputContact'
+            // placeholder='Name*' 
+            className='inputContact'
           />
         </div>
-        <div>
+        <div className='inputContainer'>
+          <label htmlFor="message" className={`floatingLabel floatingLabelMessage ${message && 'floatingLabelActive'}`}>Your message*</label>
           <textarea 
             id="message" 
             value={message} 
             onChange={(e) => setMessage(e.target.value)} 
             required 
-            placeholder='Your message*' className='inputContact inputContactMessage'
+            // placeholder='Your message*' 
+            className='inputContact inputContactMessage'
           />
         </div>
        <button className='button formButton'>Send Message</button>
@@ -42,18 +46,5 @@ function ContactForm() {
     </div>
   );
 };
-//   return (
-//     <div className='contactFormContainer'>
-//       <p className='whatWeDotitle'>Contact us</p>
-//       <div>
-//         <input type="text" placeholder='Name*' className='inputContact' onChange={handleInputChange}/>
-//         <input type="email" placeholder='Email address*' className='inputContact' onChange={handleInputChange}/>
-//         <input type="text" placeholder='Subject*' className='inputContact' onChange={handleInputChange}/>
-//         <input type="text" placeholder='Your message*' className='inputContact inputContactMessage' onChange={handleInputChange}/>
-//       </div>
-//       <p className='button formButton'>Send Message</p>
-//     </div>
-//   )
-// }
 
 export default ContactForm

@@ -43,12 +43,18 @@ ul {
 }
 
 .contactFormContainer{
+    /* cambiar color */
     background-color:#FFFFFF33;
     width: 80%;
     border: 2.3px solid white;
     padding: 0 10%;
     border-radius: 20px;
 }
+.inputContainer {
+    position: relative;
+    margin-bottom: 15px;
+}
+  
 .inputContact {
     background: transparent;
     border: 1px solid #80858D;
@@ -56,7 +62,15 @@ ul {
     border-radius: 5px;
     width: 85%;
     margin: 0 0 8% 0px;
-    font-size: 14px;
+    font-size: 15px;
+    outline: none;
+}
+.inputContact:focus + .floatingLabel,
+.inputContact:not(:placeholder-shown) + .floatingLabel {
+  top: 0;
+  left: 16px;
+  font-size: 12px;
+  /* color: #000; */
 }
 .inputContact::placeholder {
     font-family: Helvetica, sans-serif !important;
@@ -64,8 +78,7 @@ ul {
     opacity: 1;
 }
 .inputContactMessage {
-    
-    padding: 5px 16px 64px 16px;
+    padding: 10px 16px 64px 16px;
 }
 .formButton {
     margin-bottom: 15px !important;
@@ -79,6 +92,29 @@ ul {
 .learnMore:hover{
     color: #3576CF;
     background-color: #fff;
+}
+.floatingLabel {
+    position: absolute;
+    top: 32%;
+    left: 16px;
+    transform: translateY(-50%);
+    color: #80858D;
+    /* mismo color que arriba */
+    background: #E7E5E5;
+    transition: 0.2s ease all;
+    pointer-events: none;
+    font-family: Helvetica, sans-serif !important;
+    margin-left: 5px;
+}
+.floatingLabelMessage {
+    top: 15% !important;
+}
+  
+  .floatingLabelActive {
+    top: 0;
+    left: 16px;
+    font-size: 12px;
+    /* color: #000; */
 }
 
 @media(min-width:700px){
@@ -113,9 +149,13 @@ ul {
         width: 40% !important;
         margin-bottom: 25px !important;
     }
+    .floatingLabel {
+        top: 30%;
+    }
 }
 
 @media(min-width:1000px){
+    
     .contactHeroTitle{
         width: 100%;
         font-size: clamp(20px, 2vw, 30px);
@@ -189,7 +229,9 @@ ul {
     }
 }
 @media(min-width:1400px){
-    
+    .floatingLabel {
+        top: 28%;
+    }
     .button {
         font-size: 17px;
         padding: 18px;
@@ -203,7 +245,9 @@ ul {
     }
 }
 @media(min-width:1800px){
-    
+    .floatingLabel {
+        top: 27%;
+    }
     .button {
         font-size: 19px;
     }
