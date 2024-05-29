@@ -53,7 +53,10 @@ ul {
     position: relative;
     margin-bottom: 15px;
 }
-  
+textarea {
+    
+    font-family: Helvetica, sans-serif !important;
+}
 .inputContact {
     background: transparent;
     border: 1px solid #80858D;
@@ -77,6 +80,9 @@ ul {
 }
 .inputContactMessage {
     padding: 10px 16px 64px 16px;
+}
+.inputContactMessage::placeholder{
+    font-family: Helvetica, sans-serif !important;
 }
 .formButton {
     margin-bottom: 15px !important;
