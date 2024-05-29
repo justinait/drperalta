@@ -92,6 +92,7 @@ textarea {
 }
 .button:hover {
     background-color: #3576CF;
+    cursor: pointer;
 }
 .learnMore:hover{
     color: #3576CF;
