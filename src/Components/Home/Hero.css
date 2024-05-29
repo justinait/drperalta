@@ -56,12 +56,12 @@
         width: 70%;
         padding: 5%;
     }
-    .heroTitle, .heroText{
-        width: 60%;
+    .heroTitle{
         line-height: normal;
+        
+        font-size: 28px;
     }
     .heroText{
-        font-size: 15px;
         width: 64%;
     }
     .buttonsHero {

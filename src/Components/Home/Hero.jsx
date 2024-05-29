@@ -7,7 +7,7 @@ function Hero({scrollToSection }) {
     <div className='heroContainer'>
       {/* <img src={hero} alt="" className='heroImage' /> */}
       <div className='heroBox'>
-        <p className='heroTitle'>Need a doctor at home? Contact to Dr. Peralta </p>
+        <p className='heroTitle'>Need a doctor at home? <br />Contact to Dr. Peralta </p>
         <p className='heroText'>Home doctor visits provide a convenient way to access healthcare services 
           without having to travel to a doctor's office or clinic.
         </p>
