@@ -9,7 +9,7 @@ function Contact() {
     <div className='contactPageContainer' id='contact'>
       <div className='contactPageOne'>
 
-        <p className='contactHeroTitle'>Home medical care just a click away. <strong>Schedule your visit today.</strong> </p>
+        <p className='contactHeroTitle'>Home medical care just a click away.<br />   <strong>Schedule your visit today.</strong> </p>
 
         <div className='divIcons'>
           <img src={phone} alt="" />

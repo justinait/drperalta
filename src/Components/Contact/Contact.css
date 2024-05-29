@@ -6,9 +6,8 @@
 .contactHeroTitle{
     font-family: Helvetica;
     font-size: 19px;
-    font-size: clamp(19px, 5vw, 22px);
+    font-size: clamp(17px, 4.5vw, 30px);
     font-weight: 400;
-    line-height: 27.6px;
     text-align: left;
     /* width: 80%; */
 }
@@ -84,7 +83,7 @@ ul {
 
 @media(min-width:700px){
     .contactHeroTitle{
-        font-size: clamp(23px, 6vw, 30px);
+        font-size: clamp(28px, 4.5vw, 40px);
         line-height: normal;
     }
     .divIcons p {
@@ -119,7 +118,7 @@ ul {
 @media(min-width:1000px){
     .contactHeroTitle{
         width: 100%;
-        font-size: 21px;
+        font-size: clamp(20px, 2vw, 30px);
     }
     .contactPageContainer{
         display: flex;
@@ -156,7 +155,7 @@ ul {
 }
 @media(min-width:1200px){
     .contactHeroTitle{
-        font-size: 29.5px;
+        font-size: clamp(20px, 2vw, 30px);
     }
     .button {
         font-size: 16px;
@@ -196,7 +195,7 @@ ul {
         padding: 18px;
     }
     .contactHeroTitle {
-        font-size: 33px;
+        font-size: clamp(30px, 2vw, 34px);
     }
     .formButton {
         
@@ -221,7 +220,7 @@ ul {
         width: 34%;
     }
     .contactHeroTitle {
-        font-size: 37px;
+        font-size: 34px;
     }
     .divIcons p, .subtitleContactHero, ul {
         font-size: 20px;
