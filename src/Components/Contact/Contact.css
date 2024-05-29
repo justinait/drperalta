@@ -70,7 +70,6 @@ ul {
   top: 0;
   left: 16px;
   font-size: 12px;
-  /* color: #000; */
 }
 .inputContact::placeholder {
     font-family: Helvetica, sans-serif !important;
@@ -107,14 +106,13 @@ ul {
     margin-left: 5px;
 }
 .floatingLabelMessage {
-    top: 15% !important;
+    top: 15%;
 }
   
-  .floatingLabelActive {
+.floatingLabelActive {
     top: 0;
     left: 16px;
     font-size: 12px;
-    /* color: #000; */
 }
 
 @media(min-width:700px){
@@ -152,6 +150,23 @@ ul {
     .floatingLabel {
         top: 30%;
     }
+    
+    
+    .floatingLabelMessage {
+        top: 15%;
+    }
+    .inputContact:focus + .floatingLabel,
+    .inputContact:not(:placeholder-shown) + .floatingLabel {
+        top: 0;
+        font-size: 15px;
+    }
+    
+    .floatingLabelActive {
+        top: 0;
+        left: 16px;
+        font-size: 12px;
+    }
+
 }
 
 @media(min-width:1000px){
@@ -232,6 +247,21 @@ ul {
     .floatingLabel {
         top: 28%;
     }
+    
+    .floatingLabelMessage {
+        top: 15%;
+    }
+    .inputContact:focus + .floatingLabel,
+    .inputContact:not(:placeholder-shown) + .floatingLabel {
+        top: 0;
+        font-size: 15px;
+    }
+    
+    .floatingLabelActive {
+        top: 0;
+        left: 16px;
+        font-size: 12px;
+    }
     .button {
         font-size: 17px;
         padding: 18px;
@@ -247,6 +277,21 @@ ul {
 @media(min-width:1800px){
     .floatingLabel {
         top: 27%;
+    }
+    
+    .floatingLabelMessage {
+        top: 15%;
+    }
+    .inputContact:focus + .floatingLabel,
+    .inputContact:not(:placeholder-shown) + .floatingLabel {
+        top: 0;
+        font-size: 15px;
+    }
+    
+    .floatingLabelActive {
+        top: 0;
+        left: 16px;
+        font-size: 12px;
     }
     .button {
         font-size: 19px;
