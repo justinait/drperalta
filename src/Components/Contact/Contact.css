@@ -152,10 +152,6 @@ textarea {
         width: 40% !important;
         margin-bottom: 25px !important;
     }
-    .floatingLabel {
-        /* top: 30%; */
-    }
-    
     
     .floatingLabelMessage {
         top: 15%;
@@ -248,10 +244,7 @@ textarea {
     }
 }
 @media(min-width:1400px){
-    .floatingLabel {
-        /* top: 28%; */
-    }
-    
+   
     .floatingLabelMessage {
         top: 15%;
     }
@@ -279,9 +272,7 @@ textarea {
     }
 }
 @media(min-width:1800px){
-    .floatingLabel {
-        /* top: 27%; */
-    }
+    
     
     .floatingLabelMessage {
         top: 15%;
