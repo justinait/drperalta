@@ -18,7 +18,7 @@ function Contact() {
 
         <div className='divIcons'>  
           <img src={location} alt="" />
-          <p>City of Mexico</p>
+          <p>Banderas Bay, Mexico</p>
         </div>
 
         <p className='subtitleContactHero'>At home medical service 24/7 to:</p>
